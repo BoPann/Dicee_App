@@ -1,7 +1,12 @@
 .container {
+  
+  border: green solid 1px;
+  display:flex;
+  flex-direction: column;
   width: 70%;
-  margin: auto;
   text-align: center;
+  /* align-items: center; */
+  margin:auto;
 }
 
 .dice {
@@ -15,10 +20,12 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  top:0;
+  text-align: center;
+  align-items: center;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 6rem;
   color: #4ECCA3;
 }
 
@@ -31,19 +38,6 @@ p {
 img {
   width: 80%;
   display: flex;
-}
-
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
-}
-
-#bgm {
-  display: block;
-  margin: 0 auto;
 }
 
 
